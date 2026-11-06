@@ -1,0 +1,7 @@
+pyserial==3.5
+websockets==17.3
+Werkzeug==3.1.9
+bleak==3.0.2
+reportlab==5.1.0
+matplotlib==3.11.2
+pytest==9.1.1

@@ -1,0 +1,48 @@
+name: smart_patient_assistance 
+description: Smart Patient Assistance and Emergency Alert System desktop interface. 
+publish_to: "none" 
+ 
+version: 1.0.0+1 
+ 
+environment: 
+  sdk: ">=3.9.0 <4.0.0" 
+ 
+dependencies: 
+  flutter: 
+    sdk: flutter 
+ 
+  # Icons 
+  cupertino_icons: ^1.0.8 
+ 
+  # State management 
+  provider: ^6.1.5+1 
+ 
+  # Application navigation 
+  go_router: ^18.0.1 
+ 
+  # Python WebSocket backend communication 
+  web_socket_channel: ^3.0.3 
+ 
+  # Charts and analytics 
+  fl_chart: ^1.2.0 
+ 
+  # Date/time/number formatting 
+  intl: ^0.20.3 
+ 
+  # Local application preferences 
+  shared_preferences: ^2.5.5 
+ 
+  # Windows/Linux/macOS desktop window management 
+  window_manager: ^0.5.2 
+ 
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter 
+ 
+  flutter_lints: ^6.0.0 
+ 
+flutter: 
+  uses-material-design: true 
+ 
+  assets:
+    - assets/images/hospital.png
